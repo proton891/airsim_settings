@@ -1,0 +1,28 @@
+{
+    "SettingsVersion": 1.2,
+    "SimMode": "Multirotor",
+    "Vehicles": {
+        "Drone1": {
+            "VehicleType": "PX4Multirotor",
+            "UseSerial": false,
+            "UseTcp": true,
+            "TcpPort": 4561,
+            "ControlPort": 14580,
+            "X": 1,
+			"Y": -20,
+			"Z": -1,
+			"Yaw": 180
+        },
+        "Drone2": {
+            "VehicleType": "PX4Multirotor",
+            "UseSerial": false,
+            "UseTcp": true,
+            "TcpPort": 4562,
+            "ControlPort": 14580,          
+            "X": 1,
+			"Y": 20,
+			"Z": -1,
+			"Yaw": 180
+        }
+    }
+  }
